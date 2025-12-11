@@ -22,3 +22,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# images
+src/assets/img/*.png
+src/assets/img/*.jpg
+src/assets/img/*.jpeg
+src/assets/img/*.webp
