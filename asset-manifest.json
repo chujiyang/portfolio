@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a1bacbe8.css",
+    "main.js": "/portfolio/static/js/main.a1033338.js",
+    "static/js/453.2fa7cac9.chunk.js": "/portfolio/static/js/453.2fa7cac9.chunk.js",
+    "static/media/blue-cloud-dark-bg.jpg": "/portfolio/static/media/blue-cloud-dark-bg.da87374f313fae6a71c6.jpg",
+    "static/media/prod-1.png": "/portfolio/static/media/prod-1.1c33b1d9b2fd42264a1e.png",
+    "static/media/blue-cloud-dark-cropped-inverted-bg.jpg": "/portfolio/static/media/blue-cloud-dark-cropped-inverted-bg.57d758b6d4489fea1437.jpg",
+    "static/media/blue-cloud-dark-cropped-bg.jpg": "/portfolio/static/media/blue-cloud-dark-cropped-bg.fb543dffdb51a894fffd.jpg",
+    "static/media/blue-cloud-dark-shortened-bg.jpg": "/portfolio/static/media/blue-cloud-dark-shortened-bg.6698bb25608747cf18b9.jpg",
+    "static/media/critter_world_2.png": "/portfolio/static/media/critter_world_2.b30ef72b77de23436439.png",
+    "static/media/prod-3.png": "/portfolio/static/media/prod-3.d1ff8bed385e7dd1bc16.png",
+    "static/media/critter_world_3.png": "/portfolio/static/media/critter_world_3.de1c84083936fa53c552.png",
+    "static/media/prod-2.png": "/portfolio/static/media/prod-2.dfd2cec20b0adb853dbe.png",
+    "static/media/critter_world_1.png": "/portfolio/static/media/critter_world_1.4f5d09105e547e7be472.png",
+    "static/media/self-pic2.jpg": "/portfolio/static/media/self-pic2.045929f1327063fe8969.jpg",
+    "static/media/white-star.png": "/portfolio/static/media/white-star.63ff78ac42a6d9b63358.png",
+    "static/media/research.png": "/portfolio/static/media/research.0683e9b4fa0a3f7a15f4.png",
+    "static/media/jellyfish.jpg": "/portfolio/static/media/jellyfish.8d5411ae7195a4181aa4.jpg",
+    "static/media/amatic-sc.bold.ttf": "/portfolio/static/media/amatic-sc.bold.a0f774a967258c619f41.ttf",
+    "static/media/white_logo.png": "/portfolio/static/media/white_logo.8dce332cd3c310fed9f0.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portfolio/index.html",
+    "main.a1bacbe8.css.map": "/portfolio/static/css/main.a1bacbe8.css.map",
+    "main.a1033338.js.map": "/portfolio/static/js/main.a1033338.js.map",
+    "453.2fa7cac9.chunk.js.map": "/portfolio/static/js/453.2fa7cac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1bacbe8.css",
+    "static/js/main.a1033338.js"
+  ]
+}
