@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import banner from '../assets/banner.jpeg';
+import pfp from '../assets/pfp.PNG';
 
 const EMAIL = 'emilyyang0999@gmail.com';
 
@@ -24,9 +25,7 @@ function ChannelHeader() {
           {/* Pfp + Name/Handle row */}
           <div className="flex items-center gap-4">
             <div className="shrink-0 w-20 h-20 md:w-44 md:h-44 rounded-full bg-gray-800 border-4 border-[#0f0f0f] overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center text-gray-500 text-sm">
-                Profile
-              </div>
+              <img src={pfp} alt="Profile" className="w-full h-full object-cover object-bottom scale-115 origin-bottom" />
             </div>
 
             <div className="flex-1 min-w-0 flex flex-col">

@@ -13,13 +13,14 @@ export const portfolioData = {
   work: [
     {
       id: 'work-1',
-      title: 'ML & Backend Developer + Project Manager',
+      title: 'ML & Backend Developer + PM',
       company: 'LinkedIn x Cornell Bowers CIS ASCEND Program',
 
       dateRange: 'Aug 2025 – Present',
       thumbnail: prism,
       techStack: [],
-      link: null
+      link: 'https://bowers.cornell.edu/belonging-bowers/ascend',
+      linkLabel: 'ASCEND Website'
     },
     {
       id: 'work-2',
@@ -29,7 +30,8 @@ export const portfolioData = {
       dateRange: 'Feb 2026 – Present',
       thumbnail: wicc,
       techStack: ['Python', 'PostgreSQL', 'TimeScaleDB', 'FastAPI', 'Docker'],
-      link: null
+      link: 'https://wicc.cornell.edu/#/',
+      linkLabel: 'WICC Website'
     },
     {
       id: 'work-3',
@@ -38,7 +40,8 @@ export const portfolioData = {
       dateRange: 'Feb 2026 – May 2026',
       thumbnail: portfolioDashboard,
       techStack: ['Python', 'Claude API', 'Snowflake', 'DuckDB', 'FastAPI', 'Next.js'],
-      link: null
+      link: 'https://www.campusedge.ai/',
+      linkLabel: 'CampusEdge AI Website'
     }
   ],
 
@@ -61,7 +64,8 @@ export const portfolioData = {
       dateRange: 'Mar 2026 – Mar 2026',
       thumbnail: bonk,
       techStack: ['Node.js', 'Express', 'Socket.io', 'WebRTC', 'OAuth', 'Figma'],
-      link: null
+      link: 'https://github.com/julyc25/Bonk',
+      linkLabel: 'Bonk GitHub'
     },
     {
       id: 'project-3',
@@ -93,7 +97,8 @@ export const portfolioData = {
       dateRange: 'June 2026 – Present',
       thumbnail: bure,
       techStack: [],
-      link: null
+      link: 'https://bowers.cornell.edu/research/undergraduate-research/bowers-undergraduate-research-experience',
+      linkLabel: 'BURE Website'
     },
     {
       id: 'research-2',
@@ -103,14 +108,15 @@ export const portfolioData = {
       dateRange: 'Jan 2024 – Dec 2024',
       thumbnail: polygence,
       techStack: [],
-      link: null
+      link: 'https://www.academia.edu/125005015/Ethical_Regulation_in_the_AI_Marketplace',
+      linkLabel: 'Research Paper Link'
     }
   ],
 
   hobbies: [
     {
       id: 'hobby-1',
-      title: '(Mostly Celebrity) Digital Art',
+      title: 'Celeb Portraits | Digital Art',
       company: null,
 
       dateRange: '2018 – Present',

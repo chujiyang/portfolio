@@ -56,24 +56,22 @@ function VideoCard({ entry }) {
                   <PlayIcon />
                 </div>
                 {/* Link at bottom */}
-                <div className="absolute bottom-4 left-0 right-0 flex justify-center">
-                  <div className="flex items-center gap-1.5">
-                    <span className="shrink-0 text-white"><LinkIcon /></span>
-                    {entry.link ? (
+                {entry.link && (
+                  <div className="absolute bottom-4 left-0 right-0 flex justify-center">
+                    <div className="flex items-center gap-1.5">
+                      <span className="shrink-0 text-white"><LinkIcon /></span>
                       <a
                         href={entry.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="text-sm text-white underline truncate max-w-[70%]"
+                        className="text-sm text-white truncate underline max-w-[90%]"
                       >
-                        {entry.link}
+                        {entry.linkLabel || entry.link}
                       </a>
-                    ) : (
-                      <span className="text-sm text-white">No link added</span>
-                    )}
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               {/* Video Progress Bar */}
@@ -85,7 +83,7 @@ function VideoCard({ entry }) {
         {/* Metadata Below Thumbnail */}
         <div className="flex items-start gap-3">
           <div className="flex-1">
-            <h3 className="text-white font-semibold text-[16px] leading-tight mb-1 line-clamp-2">
+            <h3 className="text-white font-semibold text-[16px] leading-tight mb-1">
               {entry.title}
               {entry.company && ` • ${entry.company}`}
             </h3>
@@ -112,7 +110,7 @@ function VideoCard({ entry }) {
         </div>
 
         <div className="flex-1 min-w-0">
-          <h3 className="text-white font-semibold text-sm leading-tight mb-0.5 line-clamp-2">
+          <h3 className="text-white font-semibold text-sm leading-tight mb-0.5">
             {entry.title}
             {entry.company && ` • ${entry.company}`}
           </h3>
@@ -133,7 +131,7 @@ function VideoCard({ entry }) {
               className="flex items-center gap-1.5 mt-1.5 text-blue-400 text-sm underline truncate"
             >
               <LinkIcon />
-              <span className="truncate">{entry.link}</span>
+              <span className="truncate">{entry.linkLabel || entry.link}</span>
             </a>
           )}
         </div>
