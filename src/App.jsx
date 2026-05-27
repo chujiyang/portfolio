@@ -48,9 +48,7 @@ function App() {
         {sections.map(section => (
           <section key={section.key} className="mb-12">
             {/* Section Heading */}
-            <h2 className="text-xl md:text-2xl font-bold mb-6">
-              {section.title}
-            </h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-6">{section.title}</h2>
             
             {/* Card Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">

@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 function LinkIcon() {
   return (
@@ -11,7 +11,7 @@ function LinkIcon() {
 
 function PlayIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" heightf="40" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
       <polygon points="5 3 19 12 5 21 5 3" />
     </svg>
   );
@@ -19,15 +19,13 @@ function PlayIcon() {
 
 function VideoCard({ entry }) {
   const [isHovered, setIsHovered] = useState(false);
-  const hoverTimer = useRef(null);
   const thumbnailSrc = entry.thumbnail;
 
   function handleMouseEnter() {
-    hoverTimer.current = setTimeout(() => setIsHovered(true), 190);
+    setIsHovered(true);
   }
 
   function handleMouseLeave() {
-    clearTimeout(hoverTimer.current);
     setIsHovered(false);
   }
 
@@ -37,40 +35,35 @@ function VideoCard({ entry }) {
       <div className="hidden md:block">
         {/* Thumbnail Container */}
         <div
-          className="relative aspect-video bg-gray-800 rounded-xl overflow-hidden mb-3"
+          className="group/thumb relative aspect-video bg-gray-800 rounded-xl overflow-hidden mb-3"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
           <img
             src={thumbnailSrc}
             alt={entry.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform duration-200 group-hover/thumb:scale-105"
           />
 
           {isHovered && (
             <>
               {/* Full-thumbnail overlay */}
-              <div className="absolute inset-0 bg-black/35">
+              <div className="absolute inset-0 bg-black/20">
                 {/* Play button */}
-                <div className="absolute inset-0 flex items-center justify-center">
+                {/* <div className="absolute inset-0 flex items-center justify-center">
                   <PlayIcon />
-                </div>
-                {/* Link at bottom */}
+                </div> */}
+                {/* Link icon top right */}
                 {entry.link && (
-                  <div className="absolute bottom-4 left-0 right-0 flex justify-center">
-                    <div className="flex items-center gap-1.5">
-                      <span className="shrink-0 text-white"><LinkIcon /></span>
-                      <a
-                        href={entry.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="text-sm text-white truncate underline max-w-[90%]"
-                      >
-                        {entry.linkLabel || entry.link}
-                      </a>
-                    </div>
-                  </div>
+                  <a
+                    href={entry.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="absolute top-2 right-2 p-1.5 bg-black/50 rounded-full text-white hover:bg-black/80 transition-colors"
+                  >
+                    <LinkIcon />
+                  </a>
                 )}
               </div>
 
@@ -107,6 +100,17 @@ function VideoCard({ entry }) {
             alt={entry.title}
             className="w-full h-full object-cover"
           />
+          {entry.link && (
+            <a
+              href={entry.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="absolute top-1 right-1 p-1 bg-black/50 rounded-full text-white"
+            >
+              <LinkIcon />
+            </a>
+          )}
         </div>
 
         <div className="flex-1 min-w-0">
@@ -117,23 +121,11 @@ function VideoCard({ entry }) {
           <p className="text-gray-400 text-[13px] mb-1">{entry.dateRange}</p>
           <div className="flex flex-wrap gap-1 mt-1.5">
             {entry.techStack.map((tech, index) => (
-              <span key={index} className="px-1.5 py-px bg-gray-800 text-gray-300 text-[10px] rounded-full">
+              <span key={index} className="px-1.5 py-px bg-gray-800 text-gray-300 text-[12px] rounded-full">
                 {tech}
               </span>
             ))}
           </div>
-          {entry.link && (
-            <a
-              href={entry.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              className="flex items-center gap-1.5 mt-1.5 text-blue-400 text-sm underline truncate"
-            >
-              <LinkIcon />
-              <span className="truncate">{entry.linkLabel || entry.link}</span>
-            </a>
-          )}
         </div>
       </div>
     </div>
