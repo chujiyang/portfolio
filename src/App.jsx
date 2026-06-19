@@ -7,7 +7,7 @@ function App() {
     { key: 'work', title: 'Work Experience' },
     { key: 'projects', title: 'Projects' },
     { key: 'research', title: 'Research' },
-    { key: 'hobbies', title: 'Fun Stuff' }
+    { key: 'hobbies', title: 'Hobbies' }
   ];
 
   return (

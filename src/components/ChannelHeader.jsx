@@ -43,7 +43,7 @@ function ChannelHeader() {
               {/* Desktop: description, links, contact inside the column */}
               <div className="hidden md:block">
                 <div className="text-sm text-gray-400 mt-1 mb-3">
-                  <p>Hi! CS student @ Cornell who loves spring weather and bringing ethical technology to the table.</p>
+                  <p>Hi! CS student @ Cornell. I build AI and other technologies that expand possibilities for underrepresented communities, students, and corporations.</p>
                 </div>
                 <div className="flex items-center gap-4 text-sm mb-3">
                   <a href="https://www.linkedin.com/in/emily-yang-55b082330/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 flex items-center gap-1.5">
@@ -89,7 +89,7 @@ function ChannelHeader() {
           {/* Mobile: description + links + subscribe spanning full width */}
           <div className="md:hidden mt-1">
             <div className="text-sm text-gray-400 mb-2">
-              <p>Hi! CS student @ Cornell who loves spring weather and bringing ethical technology to the table.</p>
+              <p>Hi! CS student @ Cornell. I build AI and other technologies that expand possibilities for underrepresented communities, students, and corporations.</p>
             </div>
             <div className="flex items-center gap-4 text-sm mb-3">
               <a href="https://www.linkedin.com/in/emily-yang-55b082330/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 flex items-center gap-1.5">

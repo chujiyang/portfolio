@@ -18,7 +18,7 @@ export const portfolioData = {
 
       dateRange: 'Aug 2025 – Present',
       thumbnail: prism,
-      techStack: [],
+      techStack: ['Python', 'NLP', 'Transformers', 'Pydantic', 'FastAPI'],
       link: 'https://bowers.cornell.edu/belonging-bowers/ascend',
       linkLabel: 'ASCEND Website'
     },
@@ -91,7 +91,7 @@ export const portfolioData = {
   research: [
     {
       id: 'research-1',
-      title: 'Research Assistant',
+      title: 'LLM Tutoring Evaluation Across Languages | Research Assistant',
       company: 'Cornell BURE Program',
 
       dateRange: 'June 2026 – Present',
@@ -102,7 +102,7 @@ export const portfolioData = {
     },
     {
       id: 'research-2',
-      title: 'Highlighting Conflicting Stakeholder Values in Ethical AI Development',
+      title: 'Marketplace Challenges and Conflicts of Ethical AI Policy',
       company: 'Polygence Research Program',
 
       dateRange: 'Jan 2024 – Dec 2024',
@@ -116,12 +116,12 @@ export const portfolioData = {
   hobbies: [
     {
       id: 'hobby-1',
-      title: 'Celeb Portraits | Digital Art',
+      title: 'Digital Art',
       company: null,
 
       dateRange: '2018 – Present',
       thumbnail: art,
-      techStack: ['IbisPaint X', 'Krita'],
+      techStack: [],
       link: null
     }
   ]
