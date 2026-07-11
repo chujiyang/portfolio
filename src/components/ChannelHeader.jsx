@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import banner from '../assets/banner.jpeg';
-import pfp from '../assets/pfp.PNG';
+import pfp from '../assets/pfp.jpg';
 
 const EMAIL = 'emilyyang0999@gmail.com';
 
