@@ -13,18 +13,18 @@ export const portfolioData = {
   work: [
     {
       id: 'work-1',
-      title: 'ML & Backend Developer + PM',
+      title: 'ML Software Engineering Intern',
       company: 'LinkedIn x Cornell Bowers CIS ASCEND Program',
 
       dateRange: 'Aug 2025 – Present',
       thumbnail: prism,
-      techStack: ['Python', 'NLP', 'Transformers', 'Pydantic', 'FastAPI'],
+      techStack: ['Python', 'NLP', 'Hugging Face', 'OAuth', 'FastAPI'],
       link: 'https://bowers.cornell.edu/belonging-bowers/ascend',
       linkLabel: 'ASCEND Website'
     },
     {
       id: 'work-2',
-      title: 'Backend Developer',
+      title: 'Software Engineer',
       company: 'Women in Computing at Cornell x Enhansys',
 
       dateRange: 'Feb 2026 – Present',
@@ -35,11 +35,11 @@ export const portfolioData = {
     },
     {
       id: 'work-3',
-      title: 'Junior Software Engineer',
+      title: 'Software Engineering Intern',
       company: 'CampusEdge AI',
       dateRange: 'Feb 2026 – May 2026',
       thumbnail: portfolioDashboard,
-      techStack: ['Python', 'Claude API', 'Snowflake', 'DuckDB', 'FastAPI', 'Next.js'],
+      techStack: ['Python', 'Claude API', 'Snowflake', 'DuckDB', 'FastAPI', 'Next.js', 'dbt', 'Pandas', 'Numpy'],
       link: 'https://www.campusedge.ai/',
       linkLabel: 'CampusEdge AI Website'
     }
@@ -96,7 +96,7 @@ export const portfolioData = {
 
       dateRange: 'June 2026 – Present',
       thumbnail: bure,
-      techStack: [],
+      techStack: ['Python', 'Hugging Face', 'PyTorch', 'LiteLLM'],
       link: 'https://github.com/ddeepak95/tutoring-simulation',
       linkLabel: 'Repository Link'
     },
