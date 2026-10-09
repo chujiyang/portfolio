@@ -6,7 +6,7 @@ Visit my [portfolio](https://chujiyang.github.io/portfolio/) website!
 
 ### Current
 
-- **Research Assistant @ Cornell**: Building multilingual LLM tutor/student simulations. Fine-tuned Longformer-base-4096 on 2,134 dialogues to predict tutoring scores. Built a human-validated LLM-judge pipeline after finding reliability gaps in multilingual outputs. [[Link]](https://github.com/ddeepak95/tutoring-simulation)
+- **Research Assistant @ Cornell**: Building multilingual LLM tutor/student simulations. Fine-tuned Longformer-base-4096 on 2,134 dialogues to predict tutoring scores. Built a human-validated LLM-judge pipeline after finding gaps in multilingual outputs. [[Link]](https://github.com/ddeepak95/tutoring-simulation)
 - **ML Software Engineering Intern @ LinkedIn × Cornell Bowers CIS**: Leading a 4-person team on an enterprise AI privacy toolkit. Work includes a prompt sanitization engine (NER, zero-shot classification, regex), a Chrome extension that redacts prompts inline in ChatGPT and Claude, and an analytics dashboard with OAuth/JWT auth.
 
 ### Previous
@@ -20,12 +20,12 @@ Visit my [portfolio](https://chujiyang.github.io/portfolio/) website!
 |---|---|---|
 | Critter World | Multiplayer hex-grid simulation with a recursive-descent parser and interpreter for a custom language, and a concurrent client–server backend. Won 1st place for graphics (voted by course staff). | Java, JavaFX, REST API |
 | Bonk | Group screen-sharing for live accountability, built in a 36-hour hackathon. [[Link]](https://github.com/julyc25/Bonk) | Node.js, Socket.io, WebRTC |
-| Productivity App | iOS planner built with a team of 4. 120+ downloads. | iOS |
+| Productivity App | iOS task/agenda planner built with a team of 4. 120+ downloads. | iOS |
 
 ### Tech Stack
 
-- **Languages:** Python, Java, C++, C, SQL, JavaScript, OCaml, RISC-V Assembly
-- **ML / NLP:** PyTorch, Hugging Face Transformers, LiteLLM, OpenAI/Claude/Gemini APIs, Fine-tuning, LLM-as-judge, Vertex AI, Data Annotation, Simulation, Synthetic Data/Dialogue Generation
+- **Languages:** Python, Java, C++, C, SQL, JavaScript, HTML, CSS, OCaml, RISC-V Assembly
+- **ML / NLP:** PyTorch, Hugging Face Transformers, LiteLLM, OpenAI/Claude/Gemini APIs, Fine-tuning, LLM-as-a-judge Evaluation, Vertex AI LiteLLM, Data Annotation, Simulation, Synthetic Data/Dialogue Generation, Prompt Engineering
 - **Data / Backend:** FastAPI, PostgreSQL, Snowflake, DuckDB, dbt, Docker, TimescaleDB
 
 ---
