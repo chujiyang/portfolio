@@ -30,8 +30,8 @@ export const portfolioData = {
       dateRange: 'Feb 2026 – Present',
       thumbnail: wicc,
       techStack: ['Python', 'PostgreSQL', 'TimeScaleDB', 'FastAPI', 'Docker'],
-      link: 'https://wicc.cornell.edu/#/',
-      linkLabel: 'WICC Website'
+      link: 'https://enhansys.ai/',
+      linkLabel: 'Enhansys Website'
     },
     {
       id: 'work-3',
@@ -97,8 +97,8 @@ export const portfolioData = {
       dateRange: 'June 2026 – Present',
       thumbnail: bure,
       techStack: [],
-      link: 'https://bowers.cornell.edu/research/undergraduate-research/bowers-undergraduate-research-experience',
-      linkLabel: 'BURE Website'
+      link: 'https://github.com/ddeepak95/tutoring-simulation',
+      linkLabel: 'Repository Link'
     },
     {
       id: 'research-2',

@@ -1,16 +1,33 @@
-# React + Vite
+## Emily Yang
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CS at Cornell (B.S., May 2028). I work on ML systems and the data infrastructure under them, including LLM evaluation, NLP pipelines, and backends. I'm passionate about building trustworthy, efficient technology that reaches the people it's meant to reach.
 
-Currently, two official plugins are available:
+Visit my [portfolio](https://chujiyang.github.io/portfolio/) website!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Current
 
-## React Compiler
+- **Research Assistant @ Cornell**: Building multilingual LLM tutor/student simulations. Fine-tuned Longformer-base-4096 on 2,134 dialogues to predict tutoring scores. Built a human-validated LLM-judge pipeline after finding reliability gaps in multilingual outputs. [[Link]](https://github.com/ddeepak95/tutoring-simulation)
+- **ML Software Engineering Intern @ LinkedIn × Cornell Bowers CIS**: Leading a 4-person team on an enterprise AI privacy toolkit. Work includes a prompt sanitization engine (NER, zero-shot classification, regex), a Chrome extension that redacts prompts inline in ChatGPT and Claude, and an analytics dashboard with OAuth/JWT auth.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Previous
 
-## Expanding the ESLint configuration
+- **CampusEdge AI**: Built a dbt pipeline and metrics engine that replaced manual reporting at a PE firm, used in production by about 15 people. Added LLM-generated monthly reports and chat queries over Snowflake/DuckDB.
+- **Enhansys (Women in Computing at Cornell)**: Built a backend for the Italian electricity market with 1.4M+ price records across 23 bidding zones and a 7-year backfill (PostgreSQL, TimescaleDB, Docker). It now serves battery-storage feasibility analytics.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Projects
+
+| Project | Description | Tech Stack |
+|---|---|---|
+| Critter World | Multiplayer hex-grid simulation with a recursive-descent parser and interpreter for a custom language, and a concurrent client–server backend. Won 1st place for graphics (voted by course staff). | Java, JavaFX, REST API |
+| Bonk | Group screen-sharing for live accountability, built in a 36-hour hackathon. [[Link]](https://github.com/julyc25/Bonk) | Node.js, Socket.io, WebRTC |
+| Productivity App | iOS planner built with a team of 4. 120+ downloads. | iOS |
+
+### Tech Stack
+
+- **Languages:** Python, Java, C++, C, SQL, JavaScript, OCaml, RISC-V Assembly
+- **ML / NLP:** PyTorch, Hugging Face Transformers, LiteLLM, OpenAI/Claude/Gemini APIs, Fine-tuning, LLM-as-judge, Vertex AI, Data Annotation, Simulation, Synthetic Data/Dialogue Generation
+- **Data / Backend:** FastAPI, PostgreSQL, Snowflake, DuckDB, dbt, Docker, TimescaleDB
+
+---
+
+[Email](mailto:emilyyang0999@gmail.com) · [LinkedIn](https://www.linkedin.com/in/emily-yang-55b082330/) · [Portfolio](https://chujiyang.github.io/portfolio/)
